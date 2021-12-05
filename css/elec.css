@@ -1,0 +1,118 @@
+#h2box {
+    background-image: url(../images/sub_visual_trsfm.jpg);
+}
+.giant {
+    font-size: 3.7em;
+    font-weight: bold;
+    letter-spacing: -0.03em;
+    color: black;
+    margin-bottom: 0.35em;
+}
+.w-60 {width: calc((100% - 60px) * 0.6);}
+.w-40 {width: calc((100% - 60px) * 0.4);}
+
+.bordered {
+    border: 1px solid #cfcfcf;
+}
+
+#content {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#imgarticle {
+    color: white;
+    background-image: url(../images/bg_features_trsfm.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#imgarticle h3 {
+    color: white;
+    border-bottom-color: white;
+}
+.rtitle {
+    display: inline-block;
+    font-size: 1.3em;
+    padding: 0.1em 0.9em;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 2em;
+    margin-top: 20px;
+}
+#imgarticle .list-circle>li::before {
+    width: 5px;
+    height: 5px;
+    background-color: rgba(255,255,255,0.5);
+}
+.app {
+    margin-top: 20px;
+}
+.appitem {
+    float: left;
+    width: calc((100% - 50px) / 2);
+    margin-right: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #cfcfcf;
+}
+.appitem:nth-of-type(even) {
+    margin-right: 0;
+}
+.appitem .imgfit {
+    height: 200px;
+}
+.appitem p {
+    font-size: 1.25em;
+    font-weight: 300;
+    height: 70px;
+    padding-top: 1em;
+}
+#ref {
+    background-color: #f8f8f8;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+#ref .list-circle {
+    float: left;
+    width: calc((100% - 2em) / 2);
+}
+#ref .list-circle li {
+    margin-bottom: 0.9em;
+    font-weight: 300;
+}
+#ref .list-circle li::before {
+    margin-left: -0.8em;
+    width: 5px;
+    height: 5px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+@media all and (max-width: 720px) {
+    .float-left, .float-right {
+        float: none;
+        width: 100%;
+    }
+    .appitem {
+        float: none;
+        margin-right: 0;
+        width: 100%;
+    }
+    .appitem .imgfit {
+        height: 130px;
+    }
+    #ref .list-circle {
+        float: none;
+        width: calc(100% - 1em);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

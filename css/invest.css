@@ -1,0 +1,114 @@
+#h2box {
+    background-image: url(../images/sub_visual_directors.jpg)
+}
+
+.ceosmall {
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+.inceo {
+    border: 1px solid #cfcfcf;
+    width: calc((100% - 50px) / 2);
+    margin-right: 50px;
+    padding: 30px;
+}
+.inceo:last-of-type {
+    margin-right: 0;
+}
+.ceocard {
+    width: 140px;
+    text-align: center;
+}
+.inceo:last-of-type {
+    width: calc(100% - 140px);
+    padding-left: 40px;
+}
+.inceoname {
+    font-size: 1.3em;
+    font-weight: 500;
+    color: black;
+}
+.nameline {
+    border-left: 1px solid #cfcfcf;
+    padding-left: 8px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+/*
+.inceo div {
+    float: left;
+}
+*/
+/*
+.ceocard {
+    width: 140px;
+    text-align: center;
+    margin-right: 25px;
+}
+*/
+/*
+.inceo div:last-of-type {
+    width: 320px;
+    letter-spacing: -0.03em;
+}
+*/
+/*
+.inceo:last-of-type {
+    margin-right: 0;
+}
+*/
+/*
+.inceoimg {
+    border-radius: 50%;
+}
+*/
+
+#content .outceo {
+    background-color: #f3f3f3;
+    float: left;
+    padding: 25px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 20;
+    margin-right: 20px;
+    width: calc((100% - 40px) / 3);
+}
+#content .outceo:last-of-type {
+    margin-right: 0;
+}
+.outceoname {
+    font-weight: 500;
+    font-size: 1.1em;
+}
+.outceoinfo {
+    font-size: 0.9em;
+}
+
+
+
+
+
+
+
+
+@media all and (max-width: 1000px) {
+    .inceo {
+        height: 430px;
+        width: calc((100% - 20px) / 2);
+        margin-right: 20px;
+        padding: 15px;
+    }
+    .inceo div {
+        float: none;
+    }
+    .ceocaerd {
+        margin-right: 0;
+        margin-bottom: 10px;
+        margin: auto;
+    }
+    .inceo div:last-of-type {
+        width: 240px
+    }
+}

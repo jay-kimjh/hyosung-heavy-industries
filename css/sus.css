@@ -1,0 +1,58 @@
+#h2box {
+    background-image: url(../images/sub_visual_social.jpg);
+}
+
+#content {
+    padding-left: 0;
+    padding-right: 0;
+}
+.un td, .un th {
+    padding: 4px;
+    font-size: 0.95em;
+    letter-spacing: -0.03em;
+    text-indent: -1.5em;
+    vertical-align: top;
+}
+.un td:nth-of-type(1),
+.un td:nth-of-type(3) {
+    width: 58px;
+}
+.un td:nth-of-type(2),
+.un td:nth-of-type(4) {
+    padding-left: 1.8em;
+    width: 200px;
+}
+
+
+
+.ticon {
+    background-image: url(../images/un_sdgs_linkage_icon_n.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+.i1  {background-position: 0px    0;}
+.i2  {background-position: -50px  0;}
+.i3  {background-position: -100px 0;}
+.i4  {background-position: -150px 0;}
+.i5  {background-position: -200px 0;}
+.i6  {background-position: -250px 0;}
+.i7  {background-position: -300px 0;}
+.i8  {background-position: -350px 0;}
+.i9  {background-position: -400px 0;}
+.i10 {background-position: -450px 0;}
+.i11 {background-position: -500px 0;}
+.i12 {background-position: -550px 0;}
+.i13 {background-position: -600px 0;}
+.i14 {background-position: -650px 0;}
+.i15 {background-position: -700px 0;}
+.i16 {background-position: -750px 0;}
+.i17 {background-position: -800px 0;}
+
+
+
+
+
+
+

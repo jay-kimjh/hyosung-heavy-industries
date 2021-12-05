@@ -1,0 +1,51 @@
+#h2box {
+    background-image: url(../images/sub_visual_about.jpg);
+}
+
+#giant {
+    font-size: 4.6em;
+    font-weight: bold;
+    color: #eeeeee;
+}
+#giant::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 1px;
+    background-color: #dddddd;
+}
+.semi-giant {
+    color: black;
+    font-size: 1.8em;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.w-60 {
+    width: calc((100% - 60px) * 0.6);
+}
+.w-40 {
+    width: calc((100% - 60px) * 0.4);
+}
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+@media all and (max-width: 720px) {
+    .float-right, .float-left {
+        float: none;
+    }
+    .w-60, .w-40 {
+        width: 100%;
+    }
+    .w-60 {margin-top: 1em;}
+}
+
+
+
+
+
+
+
+
+
+
